@@ -20,5 +20,12 @@ Update the package databases:
 ```
 sudo pacman -Sy
 ```
+## Error and solution
+jdk-openjdk and jre-openjdk are in conflict
+```
+sudo pacman -R jdk-openjdk jre-openjdk
+sudo pacman -S jdk-openjdk
+sudo pacman -Syu
+```
 
 
