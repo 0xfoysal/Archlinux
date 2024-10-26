@@ -30,6 +30,14 @@ Run the installer
 ```
 sudo blackarch-install
 ```
+Available install mode choose ->  2nd option,  <br />
+output mode -> 2nd option, <br />
+verber mode -> 1st option, <br />
+local optoin -> 1st option, <br />
+keymap -> 1 <br />
+host -> root <br />
+network -> select dhcp <br />
+
 
 
 
