@@ -83,4 +83,7 @@ make
 sudo make install
 jq --version
 ```
-`
+##updated go install
+```
+sudo pacman -S go
+```
