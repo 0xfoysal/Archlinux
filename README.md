@@ -40,13 +40,6 @@ network -> select dhcp <br />
 
 
 
-
-
-
-
-
-
-
 ## Error and solution
 jdk-openjdk and jre-openjdk are in conflict
 ```
@@ -79,5 +72,15 @@ Update the package databases:
 sudo pacman -Sy
 ```
 
-
-
+## jq intall
+```
+git clone https://github.com/jqlang/jq.git
+cd jq
+sudo pacman -S autoconf automake libtool make gcc
+autoreconf -i
+./configure --disable-maintainer-mode
+make
+sudo make install
+jq --version
+```
+`
