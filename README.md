@@ -87,3 +87,18 @@ jq --version
 ```
 sudo pacman -S go
 ```
+subjack
+```
+git clone https://github.com/haccer/subjack.git
+cd subjack
+go build
+sudo mv subjack /usr/local/bin/
+subjack -h
+```
+if get any errror like build
+```
+go mod init subjack
+go get
+go build
+sudo mv subjack /usr/local/bin/
+```
