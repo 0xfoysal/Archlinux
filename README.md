@@ -22,6 +22,11 @@ Update Your Package Database:
 ```
 sudo pacman -Sy
 ```
+Upgrade - not tested
+```
+sudo pacman -Syu
+```
+
 Install blackarch-installer
 ```
 sudo pacman -S blackarch-installer
@@ -30,6 +35,7 @@ Run the installer
 ```
 sudo blackarch-install
 ```
+
 Available install mode choose ->  2nd option,  <br />
 output mode -> 2nd option, <br />
 verber mode -> 1st option, <br />
